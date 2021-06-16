@@ -1,10 +1,11 @@
 const withPlugins = require("next-compose-plugins");
 const withTM = require('next-transpile-modules');
 
-const plugins = [withTM(["lodash-es"])]
+// const plugins = [withTM(["lodash-es"])]
+const plugins = [];
 
 module.exports = withPlugins(plugins, {
-  future: {
-    webpack5: true,
+  env: {
+    name: "Nextjs Template"
   },
 });
