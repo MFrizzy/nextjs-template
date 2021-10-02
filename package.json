@@ -13,7 +13,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@hookform/resolvers": "^2.5.1",
+    "@hookform/resolvers": "^2.8.1",
     "@tailwindcss/aspect-ratio": "^0.2.1",
     "@tailwindcss/typography": "^0.4.1",
     "build-url": "^6.0.1",
